@@ -309,6 +309,7 @@ export const GraphCanvas = forwardRef<GraphCanvasHandle, GraphCanvasProps>(
       )} */}
 
       {/* Query FAB */}
+      <QueryFAB />
 
       {/* AI Highlights toggle - Top Right */}
       <div className="absolute top-4 right-4 z-20">
